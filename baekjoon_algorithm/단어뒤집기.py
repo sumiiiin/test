@@ -26,12 +26,11 @@
 
 # 각 요소마다 해줘야 하니 for문을 써야할것도 같음 개 복잡한데 이게 초급?
 
-n = int(input("문장의 갯수 정해"))
-b = []
-for _ in range(n):
-    a = input("문장 줘")
-    b.append(a) #하나의 리스트에 n개의 문장이 담김
-    
-    c = []
-    for i in range(n):
-        c = b[i].split()
+# 정답 돌려보니 한 줄 쓸 때마다 바로바로  나오네 ...문장
+#     
+# 2
+# i am so sad 
+# i ma os das
+# i am happy
+# i ma os das i ma yppah
+
